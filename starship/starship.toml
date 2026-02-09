@@ -1,5 +1,3 @@
-# ~/.config/starship.toml
-
 format = """
 [](#eb6f92)\
 $os\
@@ -30,12 +28,12 @@ $character"""
 
 palette = "rose_pine"
 
-# --- Символ новой строки ---
+# --- Symbol of new line ---
 [character]
 success_symbol = "[➜](bold #eb6f92)"
 error_symbol = "[➜](bold #f6c177)"
 
-# --- 1. Пользователь (Pink / Love) ---
+# --- 1. User ---
 [username]
 show_always = true
 style_user = "bg:#eb6f92 fg:#191724"
@@ -47,7 +45,7 @@ disabled = false
 style = "bg:#eb6f92"
 disabled = true
 
-# --- 2. Папка (Lavender / Iris) ---
+# --- 2. File ---
 [directory]
 style = "bg:#c4a7e7 fg:#191724"
 format = "[ $path ]($style)"
@@ -60,8 +58,7 @@ truncation_symbol = "…/"
 "Music" = " "
 "Pictures" = " "
 
-# --- 3. Git (ИСПРАВЛЕНО: Dark Purple / Overlay) ---
-# Теперь этот блок темно-фиолетовый, чтобы сочетаться с лавандовым
+# --- 3. Git ---
 [git_branch]
 symbol = ""
 style = "bg:#26233a fg:#e0def4"
@@ -71,7 +68,7 @@ format = '[ $symbol $branch ]($style)'
 style = "bg:#26233a fg:#e0def4"
 format = '[$all_status$ahead_behind ]($style)'
 
-# --- 4. Языки (Gold / Gold) ---
+# --- 4. Languages ---
 [c]
 symbol = " "
 style = "bg:#f6c177 fg:#191724"
@@ -107,7 +104,7 @@ symbol = " "
 style = "bg:#f6c177 fg:#191724"
 format = '[ $symbol ($version) ]($style)'
 
-# --- Docker (Dark / Base) ---
+# --- Docker ---
 [docker_context]
 symbol = " "
 style = "bg:#191724 fg:#e0def4"
@@ -116,7 +113,6 @@ format = '[ $symbol $context ]($style)'
 [time]
 disabled = true
 
-# --- Палитра Rose Pine ---
 [palettes.rose_pine]
 base = "#191724"
 surface = "#1f1d2e"
