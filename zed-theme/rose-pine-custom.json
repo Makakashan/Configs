@@ -108,13 +108,13 @@
         "terminal.ansi.bright_white": "#e0def4",
 
         "error": "#eb6f90",
-        "error.background": "#eb6f9080",
+        "error.background": "#99485e",
         "warning": "#ea9d34",
-        "warning.background": "#ea9d3480",
+        "warning.background": "#6f4c11",
         "info": "#00aaff90",
-        "info.background": "#00aaff80",
+        "info.background": "#006699",
         "hint": "#908caa90",
-        "hint.background": "#908caa80",
+        "hint.background": "#494756",
 
         "syntax": {
           "comment": { "color": "#6e6a86", "font_style": "italic" },
